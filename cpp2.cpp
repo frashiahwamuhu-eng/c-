@@ -1,3 +1,4 @@
+/* Frashiah Wamuhu,BCS-05-0007/2025,Program to compute the scholarships*/
 #include <iostream>
 #include <string>
 
