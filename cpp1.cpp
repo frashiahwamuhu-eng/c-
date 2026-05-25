@@ -1,3 +1,6 @@
+/* Frashiah wamuhu ,
+BCS-05-0007/2025,PROGRAM TO COMPUTE THE DUE DATES*/
+    
 #include <iostream>
 
 using namespace std;
