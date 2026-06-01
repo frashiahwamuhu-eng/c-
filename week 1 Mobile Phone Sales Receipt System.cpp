@@ -31,7 +31,7 @@ int main() {
     Total_Sales_Amount = Quantity_bought * Price_per_phone;
 
     // Display receipt
-    cout << "\n===== MOBILE PHONE SALES RECEIPT =====\n";
+    cout << "MOBILE PHONE SALES RECEIPT\n";
     cout << "Customer Name: " << Customername << endl;
     cout << "Phone Model Purchased: " << Phone_model_purchased << endl;
     cout << "Quantity Bought: " << Quantity_bought << endl;
