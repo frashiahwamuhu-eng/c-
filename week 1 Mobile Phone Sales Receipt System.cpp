@@ -1,50 +1,42 @@
-/*program to compute Driving Test Result Evaluation System
-Frashiah Wamuhu
-BCS-05-0007/2025*/
+/* Program to compute Mobile Phone Sales Receipt System
+   Frashiah Wamuhu
+   BCS-05-0007/2025
+*/
+
 #include <iostream>
 using namespace std;
-int main(){
-	//variable declaration
-	string studentname;
-	int Theory_test_marks;
-	 int Practical_test_marks;
-	  
-	  
-	//prompt user to enter the details
-	cout<<"Enter the name:"<<studentname<< "\n";
-	cin>>studentname;
-	
-		cout<<"Enter the Theory_test_marks:"<<Theory_test_marks  << "\n";
-	cin>>Theory_test_marks;
-	
-	
-		cout<<"Enter the Practical_test_marks :"<<Practical_test_marks  << "\n";
-	cin>>Practical_test_marks;
-	
-	
-	
-	//calculations
-	double Average_Score= (Theory_test_marks +Practical_test_marks)/2;
 
-	
-	
-	//enter the outputs
-	 cout<<"The marks " << endl;
-	 cout<<" student name"<<studentname << endl;
-	 cout<<" theory marks"<<Theory_test_marks << endl ;
-	 cout<<"practical marks "<<Practical_test_marks<< endl ;
-	 cout<<"Average_Score"<<Average_Score<< endl ;
-	
-	
-	//determine pass or fail
-	if(Average_Score>=50){
-		cout<<"Result:PASS"<<endl;
-	}
-	else{
-		cout<<"Result:FAIL"<<endl;
-	}
-	return 0;
-	
-	
-	
+int main() {
+    // Variable declaration
+    string Customername;
+    string Phone_model_purchased;
+    int Quantity_bought;
+    double Price_per_phone;
+    double Total_Sales_Amount;
+
+    // Prompt user to enter details
+    cout << "Enter Customer Name: ";
+    cin >> Customername;
+
+    cout << "Enter Phone Model Purchased: ";
+    cin >> Phone_model_purchased;
+
+    cout << "Enter Quantity Bought: ";
+    cin >> Quantity_bought;
+
+    cout << "Enter Price Per Phone: ";
+    cin >> Price_per_phone;
+
+    // Calculation
+    Total_Sales_Amount = Quantity_bought * Price_per_phone;
+
+    // Display receipt
+    cout << "\n===== MOBILE PHONE SALES RECEIPT =====\n";
+    cout << "Customer Name: " << Customername << endl;
+    cout << "Phone Model Purchased: " << Phone_model_purchased << endl;
+    cout << "Quantity Bought: " << Quantity_bought << endl;
+    cout << "Price Per Phone: " << Price_per_phone << endl;
+    cout << "Total Sales Amount: " << Total_Sales_Amount << endl;
+
+    return 0;
 }
