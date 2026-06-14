@@ -1,3 +1,5 @@
+/*program to compute Student Fee Management System,BCS-05-0007/2025,Frashiah wamuhu*/
+
 #include <iostream>
 using namespace std;
 
